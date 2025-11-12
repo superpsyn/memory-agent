@@ -5,7 +5,6 @@
 
 This repo provides a simple example of a ReAct-style agent with a tool to save memories. This is a simple way to let an agent persist important information to reuse later. In this case, we save all memories scoped to a configurable `user_id`, which lets the bot learn a user's preferences across conversational threads.
 
-![Memory Diagram](./static/memory_graph.png)
 
 ## Getting Started
 
@@ -59,7 +58,6 @@ Assuming the bot saved some memories, create a _new_ thread using the `+` icon. 
 
 You can review the saved memories by clicking the "memory" button.
 
-![Memories Explorer](./static/memories.png)
 
 ## How it works
 
